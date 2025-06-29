@@ -1,0 +1,12 @@
+name: yuque-mcp-server
+host: localhost
+port: 8080
+mcp:
+  name: yuque-mcp-server
+  messageTimeout: 30s
+  cors:
+    - http://localhost:3000
+
+yuque:
+  baseUrl: "https://www.yuque.com/api/v2"
+  # token 通过环境变量 YUQUE_TOKEN 设置
